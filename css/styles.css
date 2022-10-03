@@ -661,6 +661,7 @@ ul {
 }
 
 .seti-link {
+  display: flex;
   fill: #ffffff;
   align-items: center;
   justify-content: center;
