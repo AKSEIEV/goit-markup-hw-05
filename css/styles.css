@@ -72,26 +72,59 @@ body {
   color: var(--top-color);
 }
 /* ----------------------main------------------------------- */
-/* .img-container {
-  display: block;
+.main-nav {
+  text-align: center;
   display: flex;
-  justify-content: center;
-} */
+  align-items: center;
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+  text-decoration: none;
+  margin-right: 93px;
+}
+
+.logo-header-accent {
+  color: var(--top-color);
+}
 
 .list-header {
   list-style: none;
   display: flex;
 }
 
+.link-header {
+  padding: 25px;
+  display: block;
+}
+
+.link-header {
+  color: var(--top-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .list-header .link-header + .link-header {
   margin-left: 40px;
 }
 
-.main-nav {
-  text-align: center;
-  display: flex;
-  align-items: center;
+.link-header.current {
+  color: var(--acent-color);
 }
+
+
+
 
 header {
   border-bottom: 1px solid #eeeeee;
@@ -109,10 +142,7 @@ header {
   width: 270px;
 }
 
-.link-header {
-  padding: 25px;
-  display: block;
-}
+
 
 .link-tel {
   display: block;
@@ -120,16 +150,7 @@ header {
   margin-left: auto;
 }
 
-.link-header {
-  color: var(--top-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 
 .link-div-header {
   color: var(--text-color);
@@ -200,9 +221,6 @@ header {
 
 /* ------------------Psevdoklasi tipa------------------------------ */
 
-.link-header.current {
-  color: var(--acent-color);
-}
 
 .sity:hover,
 .sity:focus,
@@ -350,21 +368,7 @@ img {
   color: var(--text-color);
 }
 
-.logo-header {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--acent-color);
-  text-decoration: none;
-  margin-right: 93px;
-}
 
-.logo-header-accent {
-  color: var(--top-color);
-}
 
 /* --------------------------footer----------------- */
 footer {
