@@ -89,7 +89,7 @@ body {
 .main-nav {
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 header {
@@ -108,15 +108,15 @@ header {
   width: 270px;
 }
 
-.link-header {
-  padding: 25px;
-  display: block;
-}
-
 .link-tel {
   display: block;
   display: flex;
   margin-left: auto;
+}
+
+.link-header {
+  padding: 25px;
+  display: block;
 }
 
 .link-header {
@@ -128,6 +128,22 @@ header {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.link-header.current {
+  color: var(--acent-color);
+}
+
+.current::after {
+display: block;
+content: "";
+width: 100%;
+height: 4px;
+top: 0;
+left: 0;
+background: var(--acent-color);
+border-radius: 4px;
+margin-top: 28px;
 }
 
 .link-div-header {
@@ -199,9 +215,7 @@ header {
 
 /* ------------------Psevdoklasi tipa------------------------------ */
 
-.link-header.current {
-  color: var(--acent-color);
-}
+
 
 .sity:hover,
 .sity:focus,
@@ -213,6 +227,13 @@ header {
 .link-footer:focus {
   color: var(--acent-color);
 }
+
+/* .link-header:hover,
+.link-header:focus {
+  border-width: 100%; /* Толщина линии внизу */
+  border-bottom-style: solid; /* Стиль линии внизу */
+  border-bottom-color: var(--acent-color); /* Цвет линии внизу */
+   } */
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
