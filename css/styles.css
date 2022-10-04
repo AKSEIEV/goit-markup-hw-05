@@ -55,7 +55,6 @@ h5 {
 .list-btn-portfolio li {
   margin-right: 8px;
   display: inline;
-  padding: 3px;
   text-align: center;
 }
 
@@ -72,59 +71,26 @@ body {
   color: var(--top-color);
 }
 /* ----------------------main------------------------------- */
-.main-nav {
-  text-align: center;
+/* .img-container {
+  display: block;
   display: flex;
-  align-items: center;
-}
-
-.logo-header {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--acent-color);
-  text-decoration: none;
-  margin-right: 93px;
-}
-
-.logo-header-accent {
-  color: var(--top-color);
-}
+  justify-content: center;
+} */
 
 .list-header {
   list-style: none;
   display: flex;
 }
 
-.link-header {
-  padding: 25px;
-  display: block;
-}
-
-.link-header {
-  color: var(--top-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .list-header .link-header + .link-header {
   margin-left: 40px;
 }
 
-.link-header.current {
-  color: var(--acent-color);
+.main-nav {
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
-
-
-
 
 header {
   border-bottom: 1px solid #eeeeee;
@@ -142,7 +108,10 @@ header {
   width: 270px;
 }
 
-
+.link-header {
+  padding: 25px;
+  display: block;
+}
 
 .link-tel {
   display: block;
@@ -150,7 +119,16 @@ header {
   margin-left: auto;
 }
 
-
+.link-header {
+  color: var(--top-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .link-div-header {
   color: var(--text-color);
@@ -221,6 +199,9 @@ header {
 
 /* ------------------Psevdoklasi tipa------------------------------ */
 
+.link-header.current {
+  color: var(--acent-color);
+}
 
 .sity:hover,
 .sity:focus,
@@ -368,7 +349,21 @@ img {
   color: var(--text-color);
 }
 
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+  text-decoration: none;
+  margin-right: 93px;
+}
 
+.logo-header-accent {
+  color: var(--top-color);
+}
 
 /* --------------------------footer----------------- */
 footer {
@@ -447,7 +442,6 @@ footer {
 
 .box:hover,
 .box:focus {
-  border: 1px solid #EEEEEE;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -660,26 +654,31 @@ ul {
   gap: 10px;
 }
 
+
+
+.seti-item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  border-radius: 50%;
+  /* background-size: 20px; */
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .seti-link {
   display: flex;
   fill: #ffffff;
   align-items: center;
   justify-content: center;
   background-size: 20px;
-}
-
-.seti-item {
-  display: flex;
-  width: 44px;
-  height: 44px;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
-  background-size: 20px;
-  align-items: center;
-  justify-content: center;
-  fill: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .seti-list :hover,
