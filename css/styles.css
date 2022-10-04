@@ -77,10 +77,7 @@ body {
   justify-content: center;
 } */
 
-.list-header {
-  list-style: none;
-  display: flex;
-}
+
 
 .list-header .link-header + .link-header {
   margin-left: 40px;
@@ -114,9 +111,14 @@ header {
   margin-left: auto;
 }
 
+.list-header {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
 .link-header {
-  margin-top: 25px;
-  margin-left: 25px;
+  
 }
 
 .link-header {
