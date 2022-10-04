@@ -3,6 +3,27 @@
   visibility: hidden;
   pointer-events: none;
   position: absolute;
+  opacity: 0;
+} 
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backdrop {
+  position: fixed;
+  width: 528px;
+  height: 581px;
+  left: 536px;
+  top: 221px;
+  background: #FFFFFF;
+  box-shadow: 
+ 0px 1px 3px rgba(0, 0, 0, 0.12),
+ 0px 1px 1px rgba(0, 0, 0, 0.14),
+ 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 /* knopka- hover i fokus pohodu100%*/
@@ -22,6 +43,7 @@
   height: 50px;
   margin: 0 auto;
   margin-top: 30px;
+  data-modal-open
 }
 
 li {
@@ -117,9 +139,7 @@ header {
   gap: 50px;
 }
 
-.link-header {
-  
-}
+
 
 .link-header {
   color: var(--top-color);
