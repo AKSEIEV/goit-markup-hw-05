@@ -561,18 +561,16 @@ footer {
     transform: translateY(100%);
 }
 
-.tehnokryak:focus,
-.tehnokryak:hover,
-.tehnokryak-text:focus,
-.tehnokryak-text:hover {
-  transform: translateY(0);
-}
+  .box-link {
+    text-decoration: none;
+    display:block;
+  }
+   .box-link:hover .tehnokryak-text,
+   .box-link :focus .tehnokryak-text {
+    transform: translatey(0);
+  }
 
 
-
-.box-link {
-text-decoration: none;
-}
 
 
  
