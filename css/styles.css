@@ -123,7 +123,14 @@ h5 {
   border-radius: 4px;
   padding: 6px 22px;
   height: 38px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cybic-bezier (0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+  
 }
+
+
 
 .list-btn-portfolio li {
   margin-right: 8px;
