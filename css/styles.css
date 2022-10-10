@@ -29,22 +29,28 @@
     0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    color: tomato;
   }
 
-  .xxx {
+  .btn-x {
     position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background: #FFFFFF;
-    cursor: pointer;
+    border-color: #AFB1B8;
+     cursor: pointer;
     top: 0;
     right: 0;
   }
 
-
-
-
+  .btn-item {
+    display: block;
+    top: 50%;
+    right: 50%;
+  }
+  
+ 
 /* knopka- hover i fokus pohodu100%*/
 /*--------------------------------- head------------------ */
 
@@ -99,12 +105,15 @@ h5 {
   text-align: center;
 }
 
-button:hover,
-button:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus,
+.btn:hover,
+.btn:focus {
   color: var(--big-fon-color);
   background-color: var(--acent-color);
   border: var(--acent-color);
 }
+
 
 body {
   font-family: "Roboto", sans-serif;
